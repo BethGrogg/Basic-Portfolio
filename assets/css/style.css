@@ -17,10 +17,6 @@ p {
     position: relative;
     left: 12%; 
     
-   
-    
-    
-
 }
 
 h2 {
@@ -47,6 +43,8 @@ h1, h2 {
     
 }
 
+/*I had planned to use a border on one side of the links to get the line, but 
+  didn't get it quite right so I found this idea online and it worked okay */
 .toplinks + .toplinks:before {
     
     display: inline;
