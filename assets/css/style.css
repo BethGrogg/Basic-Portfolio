@@ -90,6 +90,10 @@ h1, h2 {
 
   }
 
+  .content {
+    min-height: calc(100vh - 40px);
+  }
+
   body {
 
     z-index: 3;
@@ -183,5 +187,6 @@ h1, h2 {
     background: #666666;
     padding: 10px 0 0 0;
     border-top: 5px solid #4aaaa5;
+    height: 40px;
 
   }
